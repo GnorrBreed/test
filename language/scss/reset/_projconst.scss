@@ -1,0 +1,62 @@
+// font_size
+$fz__main: 18px;
+$fz__med: 24px;
+$fz__big: 31px;
+
+// bg_color
+$grey: #dedede;
+$red:#db2c2c;
+
+//fonts
+@font-face {
+	font-family: 'Inter', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'EB Garamond', serif;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	font-size: $fz__main;
+	font-family: 'Inter', sans-serif;
+}
+
+a{
+	color: #000;
+	cursor: pointer;
+}
+
+
+
+
+.button{
+	width: 280px;
+	height: 60px;
+	background:linear-gradient($red, #F65858);
+	color: #fff;
+	font-size: $fz__main;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+	border-width: 2px 0;
+	border-style: solid;
+	border-color: #B62929 ;
+		&:hover{
+			background:linear-gradient(#db2c2c, #B62929);
+		}
+}
+
+.skill{
+	list-style-type: none;
+}
+.skill::before{
+	content: "★";
+}
+
+.disc__list{
+	list-style-type: disc;
+}

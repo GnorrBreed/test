@@ -1,0 +1,60 @@
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 500;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	padding: 3px 0 0 0;
+}
+
+.menu__item{
+	display: flex;
+}
+
+.menu__link{
+	padding-right: 20px;
+
+	&:hover{
+		color: $red;
+		transition: .2s;
+
+	}
+
+}
+
+.menu__link:after{
+	display: block; 
+	content: ""; 
+	height: 2px; 
+	width: 0%; 
+	background-color: $red;
+	transition: width .2s ease-in-out; 
+
+}
+
+.menu__link:hover::after{
+	width: 100%;
+}
+
+
+
+.social__icon{
+	width: 30px;
+	height: 30px;
+	padding-right: 10px;
+	&:hover{
+		fill: $red;
+		transition: .2s;
+	}
+	
+}
+
+.social__link{
+	display: inline-block;
+	height: 30px;
+}
