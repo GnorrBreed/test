@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elena</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|PT+Sans:400,700|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+
+<!--svg============================-->
+
+<svg style="display: none">
+
+<symbol id="face" viewBox="0 0 96.124 96.123">
+    <g>
+    <path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+        c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+        c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+        c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+</g>
+
+</symbol>
+
+<symbol id="google" viewBox="0 0 555.562 555.562">
+                <g>
+                <g>
+                    <path d="M543.312,85.472H482.32c-6.762,0-12.24-5.477-12.24-12.24V12.24c0-6.763-5.477-12.24-12.24-12.24h-18.256
+            c-6.762,0-12.238,5.478-12.238,12.24v60.992c0,6.763-5.479,12.24-12.24,12.24h-60.992c-6.764,0-12.24,5.478-12.24,12.24v18.256
+            c0,6.763,5.477,12.24,12.24,12.24h60.992c6.762,0,12.24,5.478,12.24,12.24v60.992c0,6.763,5.477,12.24,12.238,12.24h18.256
+            c6.764,0,12.24-5.477,12.24-12.24v-60.992c0-6.762,5.479-12.24,12.24-12.24h60.992c6.764,0,12.24-5.478,12.24-12.24V97.712
+            C555.552,90.949,550.076,85.472,543.312,85.472z" />
+                    <path d="M35.719,521.669c10.459,7.681,22.534,14.131,36.225,19.37c13.69,5.22,27.265,8.953,40.729,11.181
+            c13.464,2.222,26.763,3.342,39.896,3.342c59.646,0,106.39-14.578,140.228-43.733c31.156-27.161,46.744-58.538,46.744-94.15
+            c0-12.681-1.836-24.541-5.508-35.558c-3.672-11.016-8.465-20.478-14.357-28.378c-5.9-7.895-12.412-15.239-19.529-22.032
+            c-7.123-6.787-14.246-12.962-21.365-18.525c-7.124-5.562-13.635-10.899-19.529-16.028c-5.9-5.116-10.686-10.459-14.357-16.028
+            c-3.672-5.557-5.508-11.236-5.508-17.025c0-8.017,2.559-15.526,7.681-22.534c5.117-7.008,11.353-13.801,18.697-20.368
+            c7.344-6.561,14.688-13.739,22.038-21.53c7.344-7.791,13.574-18.084,18.697-30.881c5.115-12.803,7.68-27.436,7.68-43.905
+            c0-19.584-4.338-38.397-13.023-56.426c-6.775-14.07-15.715-25.698-26.824-34.884c-5.208-4.309-4.418-7.185,2.338-7.185h20.593
+            c6.764,0,16.971-2.767,22.805-6.182l23.947-14.015c5.832-3.415,5.086-6.181-1.678-6.181H208.677
+            c-20.698,0-41.518,2.228-62.436,6.677c-30.943,6.897-56.978,22.656-78.122,47.247c-21.15,24.596-31.72,52.473-31.72,83.63
+            c0,32.944,11.854,60.325,35.557,82.136c23.703,21.812,52.136,32.718,85.301,32.718c3.586,0,7.484-0.159,11.708-0.478
+            c6.457-0.489,11.236,0.447,10.581,2.43c-0.355,1.071-0.777,2.258-1.261,3.562c-1.114,3.005-2.001,5.398-2.668,7.179
+            s-1.224,3.954-1.671,6.505c-0.453,2.564-0.667,5.177-0.667,7.846c0,12.001,4.749,25.263,14.26,39.792
+            c3.702,5.655,1.627,10.086-5.117,10.465c-12.748,0.729-25.361,2.057-37.852,3.997c-16.475,2.563-33.721,6.572-51.75,12.025
+            c-18.03,5.453-34.168,13.354-48.409,23.703c-14.248,10.349-24.933,22.649-32.051,36.892c-8.237,16.48-12.35,31.499-12.35,45.067
+            c0,14.92,3.342,28.434,10.019,40.569C16.692,504.086,25.254,513.988,35.719,521.669z M158.584,223.692
+            c-10.239-5.784-18.923-13.299-26.041-22.534c-7.124-9.235-13.354-19.639-18.697-31.218c-5.343-11.573-9.296-23.152-11.854-34.725
+            c-2.559-11.567-3.837-22.589-3.837-33.054c0-21.371,5.679-39.731,17.026-55.086C126.534,31.72,142.556,24.04,163.26,24.04
+            c14.688,0,27.987,4.565,39.896,13.696c11.903,9.131,21.249,20.698,28.042,34.719c6.787,14.027,12.02,28.55,15.692,43.575
+            c3.672,15.024,5.508,29.21,5.508,42.57c0,16.879-2.785,31.225-8.348,43.042c-2.876,6.114-9.29,15.184-14.572,19.395
+            c-9.492,7.564-22.332,11.346-38.513,11.346C179.619,232.376,168.817,229.488,158.584,223.692z M70.775,400.315
+            c6.01-10.459,13.69-18.807,23.036-25.043c9.345-6.23,20.251-11.353,32.717-15.355c12.46-4.009,24.48-6.787,36.059-8.348
+            c11.573-1.561,23.373-2.344,35.392-2.344c3.109,0,5.894,0.043,8.36,0.122c4.615,0.153,10.625,2.1,13.434,4.039
+            c1.426,0.985,3.121,2.161,5.085,3.52c5.453,3.788,9.125,6.347,11.016,7.675c1.885,1.334,5.343,3.898,10.349,7.681
+            c5.006,3.788,8.568,6.628,10.686,8.519c2.111,1.892,5.177,4.73,9.18,8.513c4.009,3.788,6.953,7.068,8.85,9.854
+            c1.885,2.784,4.224,6.175,7.013,10.178c2.779,4.009,4.725,7.846,5.846,11.523c1.107,3.672,2.172,7.675,3.17,12.02
+            c1.004,4.34,1.506,8.85,1.506,13.514c0,14.026-3.066,26.267-9.18,36.726c-6.126,10.459-14.413,18.642-24.873,24.548
+            c-10.465,5.894-21.646,10.232-33.556,13.017c-11.91,2.785-24.431,4.174-37.559,4.174c-14.247,0-28.378-1.671-42.399-5.006
+            c-14.021-3.342-27.436-8.396-40.227-15.189c-12.803-6.794-23.152-16.139-31.053-28.048c-7.901-11.91-11.854-25.423-11.854-40.563
+            C61.76,422.678,64.765,410.78,70.775,400.315z" />
+                </g>
+            </g>
+</symbol>
+
+        <symbol id="lifesaver" viewBox="0 0 512 512">
+            <g>
+                <path d="M256,0C115.403,0,0,116.226,0,256c0,140.633,116.232,256,256,256c140.609,0,256-116.22,256-256
+            C512,115.46,395.788,0,256,0z M360.832,57.071c40.036,21.183,73.914,54.062,95.098,94.098l-83.958,36.87
+            c-11.691-19.867-28.143-36.319-48.01-48.01L360.832,57.071z M151.168,56.071l36.87,83.958
+            c-19.867,11.691-36.319,28.143-48.01,48.01l-82.958-36.87C78.254,111.132,111.132,77.254,151.168,56.071z M151.168,454.929
+            c-40.036-21.183-72.914-54.062-94.098-94.098l82.958-36.87c11.691,19.867,28.143,36.319,48.01,48.01L151.168,454.929z M151,256
+            c0-57.891,47.109-105,105-105s105,47.109,105,105s-47.109,105-105,105S151,313.891,151,256z M360.832,454.929l-36.87-82.958
+            c19.867-11.691,36.319-28.143,48.01-48.01l83.958,36.87C434.746,400.868,400.868,433.746,360.832,454.929z" />
+            </g>
+        </symbol>
+
+<symbol id="pen" viewBox="0 0 528.899 528.899">
+    <g>
+    <path d="M328.883,89.125l107.59,107.589l-272.34,272.34L56.604,361.465L328.883,89.125z M518.113,63.177l-47.981-47.981
+        c-18.543-18.543-48.653-18.543-67.259,0l-45.961,45.961l107.59,107.59l53.611-53.611
+        C532.495,100.753,532.495,77.559,518.113,63.177z M0.3,512.69c-1.958,8.812,5.998,16.708,14.811,14.565l119.891-29.069
+        L27.473,390.597L0.3,512.69z"/>
+</g>
+</symbol>
+
+<symbol id="star" viewBox="0 0 475.3 475.3">
+    <path d="m396.782 475.297c-2.132 0-4.279-.451-6.281-1.395l-152.851-71.484-152.852 71.483c-5.439 2.515-11.879 1.541-16.274-2.485-4.438-4.041-6.005-10.349-3.989-16.003l58.251-163.475-118.431-118.678c-4.25-4.259-5.526-10.654-3.22-16.221 2.292-5.567 7.717-8.507 13.722-8.507h159.277l49.533-139.633c4.206-11.861 23.759-11.861 27.965 0l49.534 139.634h159.277c6.005 0 11.43 2.94 13.722 8.507 2.306 5.567 1.03 11.962-3.22 16.221l-118.432 118.677 58.251 163.475c2.016 5.654.45 11.962-3.989 16.003-2.784 2.544-6.367 3.881-9.993 3.881zm-159.132-104.187c2.147 0 4.293.465 6.281 1.395l126.902 59.346-49.447-138.78c-1.929-5.407-.58-11.454 3.481-15.523l99.72-99.928h-133.893c-6.281 0-11.879-3.954-13.983-9.884l-39.061-109.578-39.061 109.579c-2.103 5.93-7.702 9.884-13.983 9.884h-133.893l99.72 99.928c4.061 4.07 5.41 10.116 3.481 15.523l-49.447 138.78 126.902-59.346c1.988-.931 4.135-1.396 6.281-1.396z"/>
+</symbol>
+
+<symbol id="telegram" viewBox="0 -39 512.00189 512">
+    <path d="m504.097656 11.863281c-6.257812-7.648437-15.625-11.863281-26.378906-11.863281-5.851562 0-12.042969 1.234375-18.410156 3.664062l-433.402344 165.441407c-23 8.777343-26.097656 21.949219-25.8984375 29.023437.1992185 7.070313 4.0390625 20.046875 27.4999995 27.507813.140626.046875.28125.085937.421876.128906l60.78125 17.390625 296.015624-151.230469c7.375-3.773437 16.414063-.84375 20.183594 6.535157 2.960938 5.796874 1.773438 12.609374-2.445312 17.09375l.011718.011718-164.585937 174.878906-4.695313 19.027344 58.773438 47.328125 81.445312 65.582031c.070313.054688.140626.113282.214844.167969 8.960938 6.953125 18.75 10.625 28.308594 10.628907 18.679688 0 33.550781-13.824219 37.882812-35.214844l71.011719-350.640625c2.847657-14.070313.457031-26.667969-6.734375-35.460938zm0 0"/><path d="m209.714844 279.4375c.597656-2.425781 1.800781-4.738281 3.632812-6.6875l107.996094-114.753906-200.402344 102.382812 45.503906 130.136719c2.59375 7.414063 6.453126 13.726563 11.226563 18.667969l32.035156-129.75zm0 0"/><path d="m205.601562 421.230469c10.816407-.089844 21.445313-4.652344 30.757813-13.226563l33.292969-30.65625-44.390625-35.742187zm0 0"/>
+</symbol>
+
+   <symbol id="twitter" viewBox="0 0 512 512">
+
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+            c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+            c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+            c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+            c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+            c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+            C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+            C480.224,136.96,497.728,118.496,512,97.248z" />
+            </g>
+
+        </symbol>
+
+<symbol id="bird" viewBox="0 0 512 512">
+    <g>
+    <g>
+        <path d="M437.019,74.981C388.667,26.628,324.379,0,256,0S123.333,26.628,74.981,74.981C26.628,123.333,0,187.621,0,256
+            s26.628,132.667,74.981,181.019C123.333,485.372,187.621,512,256,512s132.667-26.628,181.019-74.981S512,324.379,512,256
+            S485.372,123.333,437.019,74.981z M256,495.832C123.756,495.832,16.168,388.244,16.168,256S123.756,16.168,256,16.168
+            S495.832,123.756,495.832,256S388.244,495.832,256,495.832z"/>
+    </g>
+</g>
+</symbol>
+
+</svg>
+
+
+<!--header==================================-->
+
+<header class="header">
+    <div class="logo">
+        <img src="./img/head/2.png" alt="image">
+    </div>
+    <nav class="nav">
+        <a class="nav__link" href="#">home</a>
+        <a class="nav__link" href="#services">services</a>
+        <a class="nav__link" href="#features" >features</a>
+        <a class="nav__link" href="#contact">contact</a>
+    </nav>
+
+
+
+
+</header>
+
+<!--intro================================-->
+
+<div class="intro">
+
+<div class="container">
+<h1 class="intro__title">have a good day</h1>
+<h2 class="intro__subtitle">JUST FOR YOU ON THEMEFOREST</h2>
+<button class="intro__btn">get your copy now</button>
+
+
+</div>
+<!--/container-->
+</div>
+<!--/intro-->
+
+<!--features============================-->
+
+<div class="features" id="features">
+
+    <div class="container">
+<div class="features__content">
+        <div class="features__block">
+            <div class="block__img">
+                <img src="./img/pict/1.png" alt="image">
+            </div>
+            <div class="block__title">profesionals</div>
+            <div class="block__text">Lorem ipsum dolor sit amet consectetur elit. </div>
+        </div>
+<!--/features__block-->
+
+        <div class="features__block">
+            <div class="block__img">
+                <img src="./img/pict/2.png" alt="image">
+            </div>
+            <div class="block__title">amateurs</div>
+            <div class="block__text">Lorem ipsum dolor sit amet consectetur elit. </div>
+        </div>
+<!--/features__block-->
+
+        <div class="features__block">
+            <div class="block__img">
+                <img src="./img/pict/3.png" alt="image">
+            </div>
+            <div class="block__title">for everyone</div>
+            <div class="block__text">Lorem ipsum dolor sit amet consectetur elit. </div>
+        </div>
+<!--/features__block-->
+</div>
+<!--/features__content-->
+    </div>
+<!--/container-->
+</div>
+<!--/features-->
+
+<!--template=================================-->
+
+
+
+    <div class="template">
+<div class="container">
+       <div class="template__content">
+
+        <div class="template__block">
+            <div class="template__img">
+                <img src="./img/template/1.png" alt="image">
+            </div>
+            <div class="template__title">
+                Responsive email template
+            </div>
+            <div class="template__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis</div>
+            <button class="blue__btn"> Read more</button>
+        </div>
+<!--/template__block-->
+
+<div class="template__block">
+            <div class="template__img">
+                <img src="./img/template/2.png" alt="image">
+            </div>
+            <div class="template__title">
+                Fully compatible template
+            </div>
+            <div class="template__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis</div>
+            <button class="blue__btn"> Read more</button>
+        </div>
+<!--/template__block-->
+
+</div>
+<!--/template__content-->
+    </div>
+<!--/container-->
+</div>
+<!--/template-->
+
+<!--fully============================-->
+
+<div class="fully" id="services">
+
+    <div class="container">
+
+        <div class="fully__content">
+
+       <div class="fully__title">
+           <div class="fully__logo">
+               <svg class="logo__board">
+                   <use xlink:href="#lifesaver">
+                   </use>
+               </svg>
+           </div>
+<div class="title__text">Fully Supported template</div>
+       </div>
+
+       <div class="fully__text">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem commodo vitae. Ut semper semper lacus. Suspendisse convallis vel tellus at consectetur. Aenean risus arcu</p>
+       </div>
+
+       <button class="gray__btn">Read more</button>
+
+        </div>
+<!--/fully__content-->
+    </div>
+<!--/container-->
+</div>
+<!--/fully-->
+
+<!--blog===================================-->
+
+<div class="blog">
+
+    <div class="container">
+
+       <div class="blog__content">
+<div class="content__part">
+
+    <div class="part__img">
+        <img src="./img/fully/1.png" alt="image">
+    </div>
+    <div class="part__title">
+        FULLY Layered PSD
+    </div>
+    <div class="part__text">
+    Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit</div>
+
+    <a class="part__link" href="#" target="_blank">Check this out     &nbsp; ></a>
+</div>
+<!--/content__part-->
+<div class="content__part">
+    <div class="part__img">
+        <img src="./img/fully/2.png" alt="image">
+    </div>
+    <div class="part__title">
+        FULL compatibility
+    </div>
+    <div class="part__text">
+    Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit</div>
+
+    <a class="part__link" href="#" target="_blank">Check this out     &nbsp; ></a>
+</div>
+<!--/content__part-->
+<div class="content__part">
+    <div class="part__img">
+        <img src="./img/fully/3.png" alt="image">
+    </div>
+    <div class="part__title">
+        very great modules
+    </div>
+    <div class="part__text">
+    Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit</div>
+
+    <a class="part__link" href="#" target="_blank">Check this out     &nbsp; ></a>
+</div>
+      <!--/content__part-->
+       </div>
+        <!--/blog__content-->
+    </div>
+    <!--/container-->
+</div>
+<!--/blog-->
+
+<!--send=================================-->
+
+<div class="send" id="contact">
+
+    <div class="container">
+
+        <div class="send__content">
+            <div class="content__block">
+
+                      <div class="send__title">
+           <div class="send__logo">
+               <svg class="content__logo">
+                   <use xlink:href="#telegram">
+                   </use>
+               </svg>
+           </div>
+<div class="content__title">send it now</div>
+       </div>
+<div class="send__text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem.</p>
+</div>
+   <button class="blue__btn">Read more</button>
+
+            </div>
+<!--/content__block-->
+
+            <div class="content__block">
+ <div class="send__title">
+           <div class="send__logo">
+               <svg class="content__logo">
+                   <use xlink:href="#pen">
+                   </use>
+               </svg>
+           </div>
+<div class="content__title">very nice to see</div>
+       </div>
+<div class="send__text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada sodales risus, a adipiscing lorem.</p>
+</div>
+   <button class="blue__btn">Read more</button>
+
+            </div>
+            <!--/content__block-->
+        </div>
+        <!--/send__content-->
+    </div>
+    <!--/container-->
+</div>
+<!--/send-->
+
+<!--themeforest==============================-->
+
+<div class="themeforest">
+
+    <div class="container">
+
+        <div class="themeforest__content">
+
+<div class="themeforest__part">
+    <div class="part__img">
+        <img src="./img/just/1.png" alt="image">
+    </div>
+</div>
+<!--/themeforest__part-->
+
+<div class="themeforest__part">
+<div class="themeforest__title">
+JUST FOR YOU ON THEMEFOREST
+</div>
+<div class="themeforest__text">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum mollis risus, in mattis erat convallis egestas.</p>
+</div>
+<button class="gray__btn">Read more</button>
+</div>
+<!--/themeforest__part-->
+        </div>
+<!--/themeforest__content-->
+    </div>
+    <!--/container-->
+</div>
+<!--/themeforest-->
+
+<!--logo==================================-->
+
+<div class="this">
+
+    <div class="container">
+
+        <div class="this__content">
+                   <div class="this__title">
+                   <div class="title__star">
+           <div class="this__part">
+               <svg class="this__star">
+                   <use xlink:href="#star">
+                   </use>
+               </svg>
+           </div>
+<div class="this__text">this template was featured on </div></div>
+       </div>
+
+<div class="this__picture">
+
+    <img src="./img/logo/1.png" alt="image">
+    <img src="./img/logo/2.png" alt="image">
+    <img src="./img/logo/3.png" alt="image">
+    <img src="./img/logo/4.png" alt="image">
+
+</div>
+
+        </div>
+        <!--/logo__content-->
+    </div>
+    <!--/container-->
+</div>
+<!--/logo-->
+
+<!--footer============================-->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer__content">
+
+            <div class="footer__text">
+                Elenea © copyright 2013 - Unsubscribe here
+            </div>
+            <div class="footer__social" >
+
+<a class="link__social" href="https://www.google.com/" target="_blank">
+               <svg class="footer__link">
+                   <use xlink:href="#google">
+                   </use>
+               </svg>
+               </a>
+
+ <a class="link__social" href="https://www.facebook.com/" target="_blank">
+<svg class="footer__link">
+                   <use xlink:href="#face">
+                   </use>
+               </svg>
+               </a>
+
+<a class="link__social" href="https://twitter.com/" target="_blank">
+  <svg class="footer__link">
+                   <use xlink:href="#twitter">
+                   </use>
+               </svg>
+</a>
+            </div>
+        </div>
+
+    </div>
+      <!--/container-->
+</footer>
+
+</body>
+</html>
